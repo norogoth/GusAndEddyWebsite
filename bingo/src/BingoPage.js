@@ -7,7 +7,7 @@ import {
   Link
 } from 'react-router-dom';
 
-const bingoDbUrl = "http://127.0.0.1:8000/bingo_values";
+const bingoDbUrl = "http://207.148.17.246:8000/bingo_values";
 
 export default function BingoPage(props) {
 

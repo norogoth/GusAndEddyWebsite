@@ -9,8 +9,6 @@ import './App.css';
 import UserSubmissions from './UserSubmissions.js';
 import BingoPage from './BingoPage.js';
 
-const bingoValueUrl = 'http://127.0.0.1:8000/bingo_values';
-
 function App() {
   
 

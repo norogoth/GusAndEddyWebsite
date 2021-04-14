@@ -10,7 +10,6 @@ import UserSubmissions from './UserSubmissions.js';
 import BingoPage from './BingoPage.js';
 
 function App() {
-  
 
   return (
     <Router id="router">

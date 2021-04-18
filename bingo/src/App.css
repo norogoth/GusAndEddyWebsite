@@ -9,13 +9,15 @@
   place-content: center;
 }
 
-#randomizeButton {
-  justify-self: center;
+#randomizeButton, #mainHeading, #subHeading {
+  max-width: 200px;
+  margin: auto;
 }
 
 .bingoHeader {
-  margin-right: auto;
-  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 button {

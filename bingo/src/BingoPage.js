@@ -4,7 +4,7 @@ import {
   Link
 } from 'react-router-dom';
 
-const bingoDbUrl = "http://207.148.17.246:8000/bingo_values";
+const bingoDbUrl = "https://api.gusandeddybingo.com/bingo_values";
 
 export default function BingoPage(props) {
 
@@ -136,8 +136,8 @@ export default function BingoPage(props) {
           <div className="App">
             <div className="bingoWrapper">
               <div className="bingoHeader">
-                <h1>Gus and Eddy Podcast Bingo</h1>
-                <p>I like the Gus and Eddy Podcast. Eddy Burback is very cool!</p>
+                <h1 id="mainHeading">Gus and Eddy Podcast Bingo</h1>
+                <p id="subHeading">I like the Gus and Eddy Podcast. Eddy Burback is very cool!</p>
                 <button id="randomizeButton" onClick={() => setRandomValues()}>randomize!</button>
                 <p className={didIWin ? "winMessage" : "hiddenWinMessage"}>You Win!</p>
               </div>

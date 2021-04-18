@@ -139,10 +139,6 @@ export default function BingoPage(props) {
                 <h1>Gus and Eddy Podcast Bingo</h1>
                 <p>I like the Gus and Eddy Podcast. Eddy Burback is very cool!</p>
                 <button onClick={() => setRandomValues()}>randomize!</button>
-                <span>Bingo ID: </span><input id="bingoId"></input>
-                <button>
-                  <Link to="/UserSubmissions">Submit a Bingo Option</Link>
-                </button>
                 <p className={didIWin ? "winMessage" : "hiddenWinMessage"}>You Win!</p>
               </div>
               <BingoGrid values={values} setValues={setValues} bingoData={bingoData} setDisplayedBD={setDisplayedBD} displayedBD={displayedBD}/>

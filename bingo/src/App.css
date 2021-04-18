@@ -9,6 +9,9 @@
   place-content: center;
 }
 
+#randomizeButton {
+  justify-self: center;
+}
 
 .bingoHeader {
   margin-right: auto;

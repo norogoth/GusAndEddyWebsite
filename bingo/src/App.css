@@ -8,10 +8,12 @@
   display: grid;
   place-content: center;
 }
-
 #randomizeButton, #mainHeading, #subHeading {
-  max-width: 200px;
   margin: auto;
+}
+
+#randomizeButton {
+  max-width: 200px;
 }
 
 .bingoHeader {

@@ -63,6 +63,11 @@ export default function BingoPage(props) {
             newValues[i].value = bingoData[bdArray[i]].name;
             newValues[i].isChecked = false;
           }
+      console.log('newdisplayedvalue[7]',newdisplayedValues[7]);
+      newdisplayedValues[12] = 'free space';
+      newValues[12].value = 'free space';
+      newValues[12].isChecked = true;
+      console.log('newValues: ', newValues);
       setValues(newValues);
       setDisplayedBD(newdisplayedValues);
     }

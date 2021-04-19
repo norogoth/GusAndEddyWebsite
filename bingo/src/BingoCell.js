@@ -14,10 +14,10 @@ export default function BingoCell(props) {
 
   function handleClick(id) {
     let newValues = [...props.values];
-    if (newValues[id].isChecked === false){
+    if (newValues[id].isChecked === false & id!= 12){
       newValues[id].isChecked = true;
     }
-    else if (newValues[id].isChecked === true){
+    else if (newValues[id].isChecked === true & id!= 12){
       newValues[id].isChecked = false;
     }
     else {

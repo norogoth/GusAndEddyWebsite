@@ -1,6 +1,6 @@
 # GusAndEddyWebsite
 
-A silly website to play bingo when you listen to the [Gus and Eddy podcast](https://gusandeddy.com/). However, it is a full-stack application coded in React on the front-end and Express on the back-end. The backend is a REST API server and the URL to view this is [https://api.gusandeddybingo.com/bingo_Values](https://api.gusandeddybingo.com/bingo_Values).
+A silly website to play bingo when you listen to the [Gus and Eddy podcast](https://gusandeddy.com/) which has since been cancelled, going out in a gloryless blaze. I am no longer paying for hosting for this. However, it was a full-stack application coded in React on the front-end and Express on the back-end. The backend is a REST API server and the URL to view this is [https://api.gusandeddybingo.com/bingo_Values](https://api.gusandeddybingo.com/bingo_Values).
 
 Here is an example of an API response you will receive from that website. If any other dev wants to make another cool front-end with this data, feel free!
 
